@@ -1,7 +1,7 @@
 # sex_estimation
 An R function for estimating sex of unknown individuals utilizing cross-sectional geometric properties of 3D ulna bone models.
 
-The present function allows the user to utilize a set of diaphysea cross-sectional geometric measurements of ulna bones, which have been previously extracted from 3D bone models using the [https://github.com/pr0m1th3as/long-bone-diaphyseal-CSG-Toolkit/tree/v1.0.1](*csg-toolkit* GNU Octave package). The only requirement for the `sex_estimation` function is the CSV file that's computed from the *csg-toolkit* containing all the measurements for every individual of the desired sample. In order to use the function, the user must first download this repository from GitHub. Then, the downloaded folder must be unzipped and the CSV data file must be copied inside the sex_estimation folder.
+The present function allows the user to utilize a set of diaphysea cross-sectional geometric measurements of ulna bones, which have been previously extracted from 3D bone models using the (*csg-toolkit* GNU Octave package)[https://github.com/pr0m1th3as/long-bone-diaphyseal-CSG-Toolkit/tree/v1.0.1]. The only requirement for the `sex_estimation` function is the CSV file that's computed from the *csg-toolkit* containing all the measurements for every individual of the desired sample. In order to use the function, the user must first download this repository from GitHub. Then, the downloaded folder must be unzipped and the CSV data file must be copied inside the sex_estimation folder.
 
 After having all the necessary files inside the same directory, the user must open the `sex_estimation.R` file in an R environment (such as R Studio, which is suggested). Instructions as to the use of the function are as follows:
 
