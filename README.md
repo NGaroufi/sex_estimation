@@ -16,3 +16,5 @@ sex_estimation()
 ```
 
 This will open a window of the working directory, where the user can choose the CSV file containing the measurements. After selecting **Open**, the names of the individuals from the sample will be displayed in the console, while the output will be printed in a CSV file titled `Sex Estimation Results.csv`. The output file will be a Nx5 matrix - the first column is the index of the ulna bone model, the second column is the file name of the model as saved in the `CSG data.csv` input file, and the third volume is the estimated sex of that individual. The probability of belonging to a female or a male individual for each ulna model is displayed in the fourth and fifth columns.
+
+A testing dataset named `CSGtestdata.csv` is provided as a use case.
